@@ -65,6 +65,7 @@ export default function Index() {
 function Card(props) {
   return (
     <div className="card">
+      
       <figure>
         <img src={props.data.flags.svg} alt="" />
       </figure>
@@ -81,8 +82,6 @@ function Card(props) {
         <h3 className="heading"> Capital</h3>
         <span className='text'> {props.data.capital} </span>
       </div>
-
-
 
     </div>
   )
